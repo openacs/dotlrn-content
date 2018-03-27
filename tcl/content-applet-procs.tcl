@@ -52,13 +52,13 @@ namespace eval content {
     } {
 	One time destroy. 
     } {
-	ad_return_complaint 1 "[applet_key] remove_applet not implimented!"
+	ad_return_complaint 1 "[applet_key] remove_applet not implemented!"
     }
     
     ad_proc -public add_applet_to_community {
 	community_id
     } {
-	Add the content applet to a specifc dotlrn community
+	Add the content applet to a specific dotlrn community
     } {
 	# get the community portal id
 	set portal_id [dotlrn_community::get_portal_id -community_id $community_id]
@@ -229,7 +229,7 @@ namespace eval content {
 	remove the applet from the community
     } {
 	
-	ad_return_complaint 1 "[applet_key] remove_applet_from_community not implimented!"
+	ad_return_complaint 1 "[applet_key] remove_applet_from_community not implemented!"
     }
     
     ad_proc -public add_user {
@@ -244,14 +244,14 @@ namespace eval content {
         user_id
     } {
     } {
-        ad_return_complaint 1 "[applet_key] remove_user not implimented!"
+        ad_return_complaint 1 "[applet_key] remove_user not implemented!"
     }
     
     ad_proc -public add_user_to_community {
 	community_id
 	user_id
     } {
-	Add a user to a specifc dotlrn community
+	Add a user to a specific dotlrn community
     } {
 #     	set portal_id [dotlrn::get_portal_id -user_id $user_id]
 #         set package_id [dotlrn_community::get_applet_package_id -community_id $community_id -applet_key [applet_key]]
