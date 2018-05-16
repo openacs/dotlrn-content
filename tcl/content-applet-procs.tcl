@@ -102,7 +102,7 @@ namespace eval content {
 
 
        
-	set fn "[get_server_root]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateIndex.page"
+	set fn "[acs_root_dir]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateIndex.page"
 	set standard_page "index"
 	if {[file readable $fn]} {
 	    # create from default Template                                   
@@ -120,7 +120,7 @@ namespace eval content {
 	}
 
 
-	set fn "[get_server_root]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateIndexe.page"
+	set fn "[acs_root_dir]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateIndexe.page"
         set standard_page "es:o_index"
         if {[file readable $fn]} {
 	    # create from default Template                                                                                                                                   
@@ -139,7 +139,7 @@ namespace eval content {
 
 
 
-	set fn "[get_server_root]/packages/content-portlet/www/prototypes/gestemplate/GesTemplatebody.page"
+	set fn "[acs_root_dir]/packages/content-portlet/www/prototypes/gestemplate/GesTemplatebody.page"
 	set standard_page "es:Template_de_ges"
 	if {[file readable $fn]} {
 	    # create from default Template                                                                                                                                 
@@ -158,7 +158,7 @@ namespace eval content {
 	}
 	
 
-	set fn "[get_server_root]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateheader.page"
+	set fn "[acs_root_dir]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateheader.page"
         set standard_page "es:Template_de_header"
         if {[file readable $fn]} {
 	    # create from default header Template
@@ -181,7 +181,7 @@ namespace eval content {
             set carrera "Carrera"
             set cours_name "Curso"
 
-	set fn "[get_server_root]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateheaderpage.page"
+	set fn "[acs_root_dir]/packages/content-portlet/www/prototypes/gestemplate/GesTemplateheaderpage.page"
 	set standard_page "es:header_page"
 	if {[file readable $fn]} {
 	    # create from default header page Template
